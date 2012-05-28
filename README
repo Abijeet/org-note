@@ -1,0 +1,19 @@
+OrgNote is a small application that allows you to categorize your notes.
+
+Each category is represented as a seperate folder and each note is a text 
+file inside that folder. 
+
+Another small feature of the application is that it allows you to export a 
+category and all the files in it into HTML, which then can be viewed on a 
+browser.
+
+OrgNote stores it's data in the home directory of the user, inside a folder
+named OrgNote.
+
+I have compiled and run the program on a 64 bit Linux machine. The application 
+uses Qt so it should be platform independent. I am still working on this, and 
+it's in an alpha stage
+
+I designed the application using QtCreator. Download the files and run 
+'qmake -project' in a terminal with cwd set to the folder containing these 
+files. Then add the .pro file generated to your QtCreator to load the project.

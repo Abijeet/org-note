@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/icon-google.png</file>
+        <file>images/main-icon.png</file>
+        <file>images/gnome_edit_clear.png</file>
+        <file>images/Delete-icon.png</file>
+        <file>images/log_out.png</file>
+        <file>images/search-icon.png</file>
+        <file>images/save.png</file>
+    </qresource>
+</RCC>
