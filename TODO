@@ -4,3 +4,5 @@
 4) Do not clear textbox after saving an entry.
 5) Replace QTextEditor with a custom made widget.
 6) Spell Checking.
+7) Resizable interface.
+8) Include tag drop down in tab group order.
