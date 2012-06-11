@@ -1,4 +1,4 @@
-1) HTML formatting, display text in paragraph rather than a long straight line.
+1) HTML formatting, display text in paragraph rather than a long straight line. - done
 2) When pressing cancel on the dialog box that appears on editing and saving an exisiting entry, should not clear the text currently in the textboxes.
 3) Enable dictionary correction highlighting wherever possible.
 4) Do not clear textbox after saving an entry.

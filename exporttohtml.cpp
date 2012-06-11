@@ -49,8 +49,9 @@ void exportToHTML::fileToHTML(const QString &fileName,const QString &filePath, c
         while(!in.atEnd())
         {
             line = in.readLine();
+            data.append("<p style='font-family:monospace'>");
             data.append(line);
-            data.append("\n");
+            data.append("</p>");
         }
     }
     file.close();
@@ -68,9 +69,7 @@ void exportToHTML::fileToHTML(const QString &fileName,const QString &filePath, c
         out<<"</head>";
         out<<"<body align=\"justify\" >";
         out<<"<h2 style='font-family:monospace'>"<< name<<"</h2>";
-        out<<"<pre style='font-family:monospace'>";
-        out<<data<<"\n";
-        out<<"</pre>";
+        out<<data;
         out<<"<br/><br/>"<<"<a href=\"./index.html\">index</a>";
         out<<"</body>";
         out<<"</html>";
